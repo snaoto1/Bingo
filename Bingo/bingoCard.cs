@@ -28,7 +28,7 @@ namespace Bingo
                     RandomNumber[c] = RandomNumber[j];
                     RandomNumber[j] = tmp;
                 }
-                //シャッフルしながらBcard[0-4,i]に格納
+                //Bcardに格納
                 for (int n = 0; n < 5; n++)
                 {
                     Bcard[n, i] = RandomNumber[n];
